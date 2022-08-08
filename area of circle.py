@@ -3,7 +3,6 @@
 #ar of circle pie.r**2
 #question find area?
 print("----------------------- I'M DUMP     -------------------------------------")
-cir=input("user ho >>> enter kro circumfernce<<<")
 R=input("enter radius")
 print("-----------------------  LOGIC BUILD  -------------------------------------")
 cir=float(R)*float(3.14)*float(2)

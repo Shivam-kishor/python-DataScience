@@ -2,7 +2,7 @@
 
 #print(x)
 #as a string O/P
-age=input("enter ur num")
+age=int(input("enter ur num"))
 print('age',type(age))
 
 #as a int/op
