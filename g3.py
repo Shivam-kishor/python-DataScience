@@ -1,18 +1,22 @@
-#dfrom turtle import Screen
+from xml.etree.ElementTree import PI
 import pgzrun
-HEIGHT =500
-WIDTH= 800
 
-linux = Actor('linux',pos=(WIDTH//2,220))
+
+HEIGHT=500
+WIDTH=500
+pic1=Actor('character_0022',pos=(HEIGHT//2,WIDTH//2))
+
 def draw():
     screen.fill('white')
-    linux.draw()
-    
+    pic1.draw()
+
 def update():
-    linux.x -=3
-    if linux > WIDTH:
-        linux.x=0
-    
-
-
-pgzrun.go() 
+    #pic1.x-=1
+    #if pic1.x<0:
+    #        pic1.x=WIDTH
+  
+  
+    pic1.y+=3 #speed control
+    if pic1.y>HEIGHT:
+        pic1.y =0
+pgzrun.go()
