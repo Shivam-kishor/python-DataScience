@@ -3,7 +3,11 @@ HEIGHT=600
 WIDTH=800
 pic1=Actor('character_0014',topright=(800,200))
 pic2=Actor('character_0024',pos=(HEIGHT//2,WIDTH//2))
-speed=3
+#doubts
+speed=3   
+speeds=speed
+#music.play('waves')
+
 def draw():
     screen.fill('black')
     pic1.draw()
@@ -17,14 +21,16 @@ def update():
         
     #pic1 x&y axis movement VIA KEYBOARD
     if keyboard.left:
-        pic1.x-=0
+        pic1.x-=speeds
     if keyboard.right:
-        pic1.x+=0
+        pic1.x+=speed
     if keyboard.up:
-        pic1.y-=0
+        pic1.y-=speed
     if keyboard.down:
-        pic1.y+=0
-
+        pic1.y+=speed
+    if pic2.colliderect(pic1):
+        #sounds.waves.play() #only waves file alowed
+        sounds.sound2.play()
 
 
 
