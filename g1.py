@@ -1,4 +1,5 @@
 #10 augus/2022
+#basic
 import pgzrun
 
 HEIGHT =500

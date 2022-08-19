@@ -1,4 +1,3 @@
-from xml.etree.ElementTree import PI
 import pgzrun
 
 
