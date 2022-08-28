@@ -5,7 +5,7 @@ from random import randint
 HEIGHT=500
 WIDTH=900
 score=0
-snake=Actor('character_0007',pos=(WIDTH//2,HEIGHT//2))
+snake=Actor("character_0007",pos=(WIDTH//2,HEIGHT//2))
 food=Actor('character_0015',pos=(50,50))
 speed=3
 def draw():

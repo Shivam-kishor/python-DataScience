@@ -1,0 +1,9 @@
+#cmd type to intro of python
+python -m turtle
+
+# library name
+ pip install pgzero
+
+#importing
+  import pgzrun
+pgzrun.go()
