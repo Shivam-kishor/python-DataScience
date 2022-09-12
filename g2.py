@@ -8,7 +8,7 @@ width=800
 box1 = Rect((50,50)  ,          (200,300))
 box2 =Rect((height//2,width//2),  (100,100))
 
-music.play('sound1')
+#music.play('sound1')
 
 
 #define⬇️
