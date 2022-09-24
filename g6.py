@@ -36,7 +36,7 @@ class Coin(Actor):
     pass
 
 
-p= Player('character_0000',pos=(200,100))
+p= Player('character_0014',pos=(200,100))
 
 def draw():
     screen.clear()
@@ -45,5 +45,5 @@ def draw():
 def update():
     p.move()
     p.boundary_check()
-    #p.animate()
+    p.animate()
 pgzrun.go()
