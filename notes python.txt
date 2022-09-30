@@ -7,3 +7,9 @@ python -m turtle
 #importing
   import pgzrun
 pgzrun.go()
+
+
+
+erorrs
+uiltin_function_or_method' object is not subscriptable
+The TypeError: 'builtin_function_or_method' object is not subscriptable occurs if we use the square brackets instead of parenthesis while calling the function. The square brackets are mainly used to access elements from an iterable object such as list, array,
