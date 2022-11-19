@@ -24,7 +24,7 @@ emps={
 }
 
 
-pprint(emps)
+print(emps)
 
 print("desgination",emps['rohit']['desgination'])
 
